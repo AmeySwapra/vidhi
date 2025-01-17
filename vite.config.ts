@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['problematic-package'], // Add the package name here
+      external: ['problematic-package'], 
     },
   },
 });
